@@ -1,0 +1,21 @@
+{
+    "name": "Mi Aplicación PWA", // Nombre completo de tu app
+    "short_name": "PWA", // Nombre corto para íconos o lista de apps
+    "start_url": "/", // URL inicial al abrir la app
+    "display": "standalone", // Se comporta como una app independiente (sin barra del navegador)
+    "background_color": "#ffffff", // Color de fondo mientras se carga la app
+    "theme_color": "#42b883", // Color principal de la app
+    "icons": [
+      {
+        "src": "img/icons/icon-192x192.png", // Ruta al ícono de 192px
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/icon-512x512.png", // Ruta al ícono de 512px
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
